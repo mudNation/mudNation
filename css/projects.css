@@ -108,12 +108,10 @@
 }
 
 #fifthMid{
-    bottom: 0; 
-    border: 1px solid black;
+    height: auto; 
+    border: 1px solid black; 
+    position: relative; 
     float: left; 
-/*     width: 500px; 
-    height: 500px;  */
-/*     a */
 }
 
 .ntBlack{
