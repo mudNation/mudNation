@@ -8,13 +8,23 @@ function start(){
     
     let navList = document.getElementsByClassName("navA");
     
+    let navList = document.getElementsByClassName("navA");
     for(var i=0; i < navList.length; i++){
         navList[i].addEventListener("mouseenter", function(){
-            alert("e don enter")
+//            alert("e don enter")
             this.style.color = "blue"; 
             
-        }, false; )
-    }
+        }, false )
+        
+        navList[i].addEventListener("mouseleave", function(){
+//            alert("e don enter")
+            if(window.scrollY == 0)
+                this.style.color = "white";
+            else
+                this.style.color = "black"
+            
+        }, false )
+    }; 
 }
 
 window.addEventListener("load", start, false); 
