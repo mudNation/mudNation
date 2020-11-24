@@ -1,0 +1,559 @@
+#firstSection{
+    width: 100%; 
+    height: 100vh; 
+    box-sizing: border-box; 
+    background-image: url(slider.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
+    position: relative; 
+    z-index: 1; 
+}
+
+html {
+    scroll-behavior: smooth; 
+    -webkit-overflow-scrolling: touch;
+}
+
+
+
+#firstInfo{
+/*    border: 2px solid brown; */
+    float: left; 
+    clear: left; 
+    position: fixed; 
+/*    background-attachment: fixed; */
+    z-index: 10; 
+}
+
+
+#letsTech{
+    font-size: 130px; 
+    color: white; 
+    font-weight: 1000; 
+    line-height: 100%; 
+}
+
+#if{
+    color: white; 
+    text-align: center; 
+    font-size: 20px; 
+    font-weight: lighter; 
+    margin: 10px 0px 10px 0px; 
+    word-spacing: 6px;
+    letter-spacing: 2px; 
+}
+
+/*
+#firstButton{
+    background: blue; 
+    color: white;
+}
+*/
+
+.firstButton:hover{
+    opacity: 0.9; 
+}
+
+
+#secondSection{
+    float: left; 
+    clear: left; 
+/*    height: 1000px; */
+    width: 100%; 
+/*    border: 5px solid red; */
+    margin-top: 2px; 
+    box-sizing: border-box;
+    z-index: 10; 
+    background: red; 
+    position: relative; 
+}
+
+.ntBlack{
+    width: 300px; 
+    height: 207; 
+}
+
+#secondFirst{
+    font-size: 60px; 
+    margin-top: 10px; 
+    color: white; 
+    text-align: center; 
+}
+
+#secondSecond{
+    font-size: 15px; 
+    margin-top: 20px; 
+    color: white; 
+    text-align: center; 
+    font-weight: bold; 
+    margin-bottom: 50px; 
+}
+
+#secondWrapper{
+/*    border: 1px solid brown; */
+    margin-top: 1030px;
+    width: 1200px; 
+/*    height: 800px; */
+    margin-top: 10px; 
+    box-sizing: border-box; 
+    float: left; 
+    position: relative;
+    clear: left; 
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 360px;
+  height: 250px;
+/*  border: 1px solid #f1f1f1;*/
+  perspective: 1000px;
+    float: left; 
+    box-sizing: border-box; 
+}
+
+.flipRight{
+    margin-right: 60px; 
+}
+
+.flipTop{
+    margin-top: 40px; 
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.front, .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 30px; 
+    box-sizing: border-box;
+    color: white; 
+    background: brown; 
+    text-align: center; 
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 2px;
+}
+
+.back{
+    transform: rotateY(180deg);
+/*    display: none; */
+}
+
+.frontSmall{
+    font-size: 15px; 
+/*    border:1px solid black; */
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+
+.frontLarge{
+    font-size: 70px; 
+    margin-bottom: 15px;
+/*    border: 1px solid blue; */
+    line-height: 100%;
+}
+
+.downA{
+/*    border: 1px solid blue;*/
+/*
+    width: 100px; 
+    height: 100px; 
+*/
+    
+    position: relative;
+    clear: left; 
+    float: left; 
+    color: white; 
+    font-size: 60px; 
+    margin-top: 50px;
+    margin-bottom: 60px; 
+    cursor: pointer; 
+}
+
+.thirdDown{
+    position: absolute; 
+    bottom: 15px; 
+    color: white; 
+    font-size: 60px; 
+    clear: left; 
+    float: left; 
+    width: 100%; 
+    text-align: center; 
+    cursor: pointer; 
+}
+
+
+#thirdSection{
+    width: 100%; 
+    height: 720px; 
+    float: left; 
+    clear: left; 
+    z-index: 10; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+/*    background-attachment: fixed; */
+    background-position: center; 
+    position: relative; 
+    color: white; 
+    text-align: center; 
+    overflow: hidden; 
+}
+
+#thirdBack{
+    width: 110%; 
+    height: 100%; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+/*    background-attachment: fixed; */
+    background-position: center; 
+    position: absolute; 
+    z-index: -1; 
+}
+
+#ourApps{
+    font-size: 60px; 
+    font-weight: bold; 
+    margin-top: 20px; 
+}
+
+#clickB{
+    font-size: 18px; 
+    margin-top: 22px; 
+    letter-spacing: 2px; 
+}
+
+.appB{
+    padding: 8px 16px; 
+    background: white; 
+    color: black; 
+    border: none; 
+    border-radius: 20px; 
+    font-size: 18px;
+    font-weight: lighter; 
+/*    width: 250px; */
+    transition: 0.3s; 
+    cursor: pointer; 
+}
+
+.appB:hover{
+    background: blue;
+    color: white; 
+}
+
+.appBTop{
+    margin-top: 30px; 
+}
+
+.appBBottom{
+    margin-bottom: 5px; 
+}
+
+.imBox{
+    width: 300px; 
+    height: 200px;
+    overflow: hidden; 
+}
+
+#fourthSection{
+    background: white; 
+    position: relative; 
+    z-index: 10; 
+    clear: left; 
+    width: 100%; 
+    height: 800px; 
+    text-align: center; 
+}
+
+.fourthLogo{
+    width: 300px;
+    height: 200px;
+    position: relative; 
+    transition: 0.4s; 
+    overflow: hidden;
+}
+
+.fourthLogo:hover{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+#featuredP{
+    font-size: 55px; 
+    margin-top: 30px; 
+    margin-bottom: 15px; 
+    width: 800px;
+    box-shadow: 0 4px 3px -3px rgba(0, 0, 0, 0.2); 
+    float: left; 
+    padding: 30px; 
+}
+
+#sliderWrapper{
+/*    border: 1px solid black; */
+    width: 1200px; 
+    height: 383.33px; 
+    overflow: hidden; 
+    clear: left; 
+}
+
+.line{
+    clear: left; 
+    width: 200px; 
+    height: 200px; 
+    background: green; 
+    float: left; 
+    box-shadow: 2px 2px 1px 0px rgba(0, 0, 0, 0.2); 
+}
+
+.box{
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    left: 1200px; 
+    box-sizing: border-box;
+}
+
+.activeBox{
+    left: 0px; 
+}
+
+#box1{
+/*    background: green; */
+/*    border: 2px solid black;*/
+    box-sizing: border-box;
+/*    z-index: 1;*/
+/*    display: none; */
+}
+
+#box2{
+/*    background: red; */
+/*    z-index: 20;*/
+/*    display: none; */
+}
+
+#box3{
+/*    background: blue; */
+/*    display: none; */
+}
+
+.boxCont{
+/*    background: red; */
+    width: 383.33px; 
+    height: 383.33px;
+    float: left; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    position: relative; 
+/*    z-index: 10; */
+}
+
+.boxRight{
+    margin-right: 25px;
+}
+
+.boxImage{
+    width: 100%; 
+    height: 100%;
+/*    opacity: 0.0; */
+    position: absolute; 
+/*    z-index: 30; */
+/*    display: none;*/
+}
+
+.boxHover{
+    background: blue; 
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+
+    opacity: 0; 
+    display: block; 
+    z-index: 20; 
+}
+
+.lineThrough{
+    text-decoration: line-through; 
+}
+
+.boxMid{
+    position: absolute;
+    color: white; 
+    z-index: -1; 
+/*    border: 1px solid black; */
+}
+
+.unCat{
+    margin-bottom: 10px;
+    font-size: 12px; 
+    z-index: -1; 
+}
+
+.prize{
+    font-size: 20px; 
+}
+
+.cartLeft, .detRight{
+    position: absolute; 
+    bottom: 30px; 
+    color: white; 
+    font-size: 12px; 
+    z-index: -1; 
+}
+
+.cartLeft{
+    left: 40px; 
+}
+
+.detRight{
+    right: 40px; 
+}
+
+.sliderNav{
+    background: lightgrey; 
+    width: 30px; 
+    height: 60px; 
+    position: absolute; 
+    font-size: 14px; 
+    color: white; 
+    font-weight: lighter;
+    cursor: pointer; 
+}
+
+.sliderNav:hover{
+    opacity: 0.8; 
+}
+
+.leftNav{
+    left: 0; 
+    z-index: 30; 
+}
+
+.rightNav{
+    right: 0; 
+    z-index: 30
+}
+
+.chev{
+/*    border: 1px solid black;*/
+    position: absolute; 
+}
+
+#fifthSection{
+    width: 100%; 
+    height: 680px; 
+    position: relative; 
+    z-index: 10; 
+    overflow: hidden; 
+}
+
+#fifthBackground{
+    width: 110%; 
+    height: 100%; 
+    position: absolute; 
+    z-index: -1; 
+/*    background-attachment: fixed; */
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+/*    display: none; */
+}
+
+#fifthMid{
+/*    border: 1px solid black; */
+    width: 500px; 
+/*    height: 500px; */
+    position: absolute; 
+    z-index: 10;
+    text-align: center; 
+    color: white; 
+/*    margin-top: 50px; */
+    bottom: 50px; 
+}
+
+#ready{
+    font-size: 80px;
+    font-weight: bold; 
+    margin-top: 30px; 
+}
+
+#business{
+    margin-top: 15px; 
+    font-size: 20px; 
+}
+
+/*
+#firstButton{
+    clear: left; 
+    float: left; 
+    margin-top: 20px; 
+    color: black; 
+    background: white; 
+}
+*/
+
+#footer{
+    float: left; 
+    clear: left; 
+    width: 100%; 
+    height: 100px; 
+/*    margin-top: 100px; */
+    background: #333333; 
+    position: relative; 
+}
+
+#copy{
+/*    border: 1px solid black; */
+    float: left; 
+    margin-left: 100px;
+    color: white; 
+    font-size: 12px; 
+}
+
+#socials{
+    float: right; 
+    position: relative; 
+    right: 100px; 
+/*    border: 1px solid black;*/
+}
+
+.sIcon{
+    color: blue; 
+/*    padding: 10px; */
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px; 
+    text-align: center; 
+    background: white; 
+    font-size: 18px; 
+    position: relative; 
+    float: left; 
+}
+
+.ss{
+/*    border: 1px solid black; */
+    position: absolute; 
+    
+}
+
+.iconRight{
+    margin-right: 10px; 
+}
+
+
+
+
+
+

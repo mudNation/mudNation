@@ -1,0 +1,116 @@
+#firstSection{
+    width: 100%; 
+    height: 650px; 
+    background-size: cover; 
+    background-position: center; 
+}
+
+#firstMid{
+    width: 500px; 
+/*    height:500px; */
+/*    border: 1px solid black; */
+    text-align: center; 
+    color: white; 
+    float: left; 
+}
+
+#firstText{
+    font-size: 100px; 
+    font-weight: bold; 
+}
+
+#secondText{
+    font-size: 30px; 
+    font-weight: 100; 
+}
+
+#secondSection{
+/*    border: 1px solid black; */
+    width: 1200px; 
+/*    height: 800px; */
+    float: left; 
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+
+#work{
+    font-size: 80px; 
+    font-weight: bold; 
+}
+
+#sac{
+    font-size: 20px; 
+    color: #747a87; 
+}
+
+.divide{
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    clear: left; 
+    float: left; 
+}
+
+.projectWrap{
+    width: 370px; 
+    height: 370px; 
+    float: left; 
+    position: relative; 
+}
+
+.projectWrap:hover .projectImg{
+    display: none; 
+}
+.projectWrap:hover .wrapIconWrap{
+    display: block; 
+}
+
+.projectImg{
+    width: 100%; 
+    height: 100%; 
+}
+
+.wrapIconWrap{
+    width: 100%; 
+    height: 100%; 
+    background: blue; 
+    position: absolute; 
+    display: none; 
+    font-size: 50px; 
+    cursor: pointer; 
+}
+
+.fa-link{
+    position: absolute; 
+    color: white; 
+    
+}
+
+#proWrap{
+    float: left; 
+    clear: left; 
+    width: 100%; 
+}
+
+.proRight{
+    margin-right: 30px; 
+}
+
+.proTop{
+    margin-top: 30px; 
+}
+
+.ss{
+    position: absolute; 
+}
+
+#fifthSection{
+    height: 900px; 
+}
+
+#fifthMid{
+    bottom: 0; 
+}
+
+.ntBlack{
+    width: 500px; 
+}
