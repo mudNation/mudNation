@@ -7,8 +7,7 @@ function start(){
 //    alert(startBackground)
     
     let navList = document.getElementsByClassName("navA");
-    
-    let navList = document.getElementsByClassName("navA");
+
     for(var i=0; i < navList.length; i++){
         navList[i].addEventListener("mouseenter", function(){
 //            alert("e don enter")
