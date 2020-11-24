@@ -34,28 +34,31 @@ window.addEventListener("scroll", function(){
     let shopCart = document.getElementsByClassName("shopingCart")[0]; 
     let logo = document.getElementsByClassName("logo")[0]; 
     
+//    alert(active)
     
     if(window.scrollY === 0){
-        nav.style.background = "none"; 
-        active.style.color = "white"; 
+        nav.style.background = startBackground;
+        if(active != null)
+            active.style.color = "white"; 
         for(var i = 0; i < navList.length; i++){
             navList[i].style.color = "white"; 
         }
         shopCart.style.color = "white"; 
-        logo.src = "html/nt_white.png"
+        logo.src = "../html/nt_white.png"
         nav.style.boxShadow = "none"
-//        alert("in here"); 
     }else{
-        active.style.color = "blue"; 
+        if(active != null)
+            active.style.color = "blue";
+        
         nav.style.background = "white"; 
         for(var i = 0; i < navList.length; i++){
             navList[i].style.color = "black"; 
         }
         shopCart.style.color = "black"; 
-        logo.src = "html/nt-black.png"
+        logo.src = "../html/nt-black.png"
         nav.style.boxShadow = "0px 2px 1px 0px rgba(0, 0, 0, 0.2)"
-        //Patch
     }
+
 
 }, false); 
 
